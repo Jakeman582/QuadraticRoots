@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+{{#if root1}}
+    <p>{{root1}} | {{root2}}</p>
+{{/if}}
+<p>Enter quadratic coefficients to calculate the roots</p>
+<form name='roots' action='/' method='get'>
+    <p>a: </p><input type='text' name='a' />
+    <p>b: </p><input type='text' name='b' />
+    <p>c: </p><input type='text' name='c' />
+    <input type='submit' value='Calculate' />
+</form>
